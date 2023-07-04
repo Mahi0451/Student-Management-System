@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student management system</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+            <h2>Student Management CRUD</h2>
+            <div id="student-info">
+                <form id="studentForm">
+            <input type="text" id="nameInput" placeholder="Name">
+            <input type="email" id="emailInput" placeholder="Email">
+            <input type="tel" id="gpaInput" placeholder="GPA"><br>
+            <input type="age" id="ageInput" placeholder="Age">
+            <input type="text" id="degreeInput" placeholder="Degree"><br>
+            <br>
+            <button id="btn">Add Student</button>
+        </form>
+        </div><br>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search By Name, email or degree">
+        </div><br>
+        <table id="studentTable" border="1" cellspacing="0" cellpadding="0">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>GPA</th>
+                <th>Degree</th>
+                <th>edit/delete</th>
+              </tr>
+            </thead>
+            <tbody id="studentTableBody">
+              <!-- Student rows will be generated here -->
+            </tbody>
+          </table>
+        </div>
+    </div>
+  <script src="./script.js"></script>
+</body>
+</html>

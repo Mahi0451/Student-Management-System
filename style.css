@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    border:2px solid blue;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    gap: 40px;
+
+}
+#student-info input{
+       width: 399px;
+       background-color: black;
+       color:white;
+
+} 
+
+#studentForm{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 35px;
+}
+#btn{
+    margin: 10px 0px;
+    color: black;
+    border: 1px solid #fff;
+}
+#btn:hover{
+    background-color: rgb(218, 212, 212);
+}
+h2{
+    color:white;
+    padding:30px 50px;
+    font-size: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#nameInput{
+    width: 399px;
+    height: 40px;
+    padding: 0px 7px;
+    border: 1px solid #FFF;
+}
+
+#emailInput{
+    width: 420px;
+    height: 40px;
+    padding: 0px 7px;
+    border: 1px solid #FFF;
+}
+
+#gpaInput{
+    width: 420px;
+    height: 40px;
+    padding: 0px 7px;
+    border: 1px solid #FFF;
+}
+
+#ageInput{
+    width: 420px;
+    height: 40px;
+    padding: 0px 7px;
+    border: 1px solid #FFF;
+}
+
+#degreeInput{
+    width: 410px;
+    height: 40px;
+    padding: 0px 7px;
+    border: 1px solid #FFF;
+}
+
+#btn{
+    width: 450px;
+    height: 40px;
+}
+
+.search-bar input{
+    width: 1260px;
+    height: 40px;
+    padding: 0px 7px;
+    border: 1px solid grey;
+    margin: 30px;
+    background-color: black;
+    color: white;
+}
+
+table th{
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 4px;
+
+}
+
+table{
+    color: white;
+    margin: 14px 28px;
+    width: 1280px;
+}
+
+
+td{
+    padding: 0px 20px;
+    border: none;
+}
+thead{
+    padding: 0px 10px;
+}
