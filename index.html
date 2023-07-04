@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Management System</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header><h1>Student Management System</h1></header>
+<main>
+    <!-- input from the user -->
+    <section>
+  <form id="studentForm">
+    <input type="text" id="nameInput" placeholder="Name" required>
+    <input type="number" id="ageInput" placeholder="Age" required>
+    <input type="text" id="gradeInput" placeholder="Grade" required>
+    <input type="text" id="degreeInput" placeholder="Degree" required>
+    <input type="email" id="emailInput" placeholder="Email" required>
+    <button type="submit" id="submitButton">Add Student</button>
+    <button type="button" id="cancelButton">Cancel</button>
+  </form>
+  <input type="text" id="searchInput" placeholder="Search by Name, Email, or Degree">
+  </section>
+  <!-- maintan TAble for student mangement-->
+  <section>
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>CGP</th>
+        <th>Degree</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="studentTableBody">
+      <!-- Student rows will be dynamically generated here -->
+    </tbody>
+  </table>
+  </section>
+</main>
+  <script src="script.js">
+
+  </script>
+</body>
+</html>
